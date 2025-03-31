@@ -161,7 +161,7 @@ def generate_split_name(pdf_path, start_page, end_page, split_num, stop_words):
         # Simple fallback
         return f"{split_num:02d}_pages_{start_page+1}-{end_page}"
 
-def split_pdf_by_size(pdf_path, complete_folder, original_folder, stop_words, max_size_mb=27):
+def split_pdf_by_size(pdf_path, complete_folder, original_folder, stop_words, max_size_mb=24):
     """Split a PDF into parts, each not exceeding max_size_mb."""
     try:
         # Create a folder for the splits
@@ -258,7 +258,7 @@ echo Starting PDF Splitter...
     # Create README
     readme_content = """# PDF Splitter
 
-This tool automatically splits PDFs into smaller files (max 27MB) when they are dropped into the "PDF Split Drop" folder.
+This tool automatically splits PDFs into smaller files (max 24MB) when they are dropped into the "PDF Split Drop" folder.
 
 ## Setup
 
@@ -271,7 +271,7 @@ This tool automatically splits PDFs into smaller files (max 27MB) when they are 
 Simply drop any PDF file into the "PDF Split Drop" folder. The tool will:
 
 1. Automatically detect the new PDF
-2. Split it into files under 27MB each
+2. Split it into files under 24MB each
 3. Create a new folder with a name based on the PDF content
 4. Name each split with a number and content-relevant keywords
 5. Move the original PDF to the "Original PDF" folder
@@ -336,8 +336,8 @@ def parse_arguments():
                         default=DEFAULT_COMPLETE_FOLDER)
     parser.add_argument("--original-folder", help="Path to folder where original PDFs will be moved",
                         default=DEFAULT_ORIGINAL_FOLDER)
-    parser.add_argument("--max-size", type=int, default=27,
-                        help="Maximum size in MB for split files (default: 27)")
+    parser.add_argument("--max-size", type=int, default=24,
+                        help="Maximum size in MB for split files (default: 24)")
     return parser.parse_args()
 
 def main():
