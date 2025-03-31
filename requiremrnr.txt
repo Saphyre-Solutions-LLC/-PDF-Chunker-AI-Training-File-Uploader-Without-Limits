@@ -1,0 +1,29 @@
+# Core PDF processing
+PyPDF2>=3.0.0
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+
+# File system monitoring
+watchdog>=2.3.0
+
+# Natural Language Processing
+nltk>=3.8.1
+
+# Image processing (needed for OCR)
+Pillow>=9.5.0
+
+# System utilities
+python-dateutil>=2.8.2
+
+# OS compatibility
+pathlib>=1.0.1
+
+# Optional: for development and testing
+pytest>=7.3.1
+black>=23.3.0
+
+# Dependencies for specific operating systems
+# Note: These are installed separately via OS package managers
+# - Windows: Tesseract OCR
+# - macOS: tesseract, poppler (via brew)
+# - Linux: tesseract-ocr, poppler-utils (via apt)
