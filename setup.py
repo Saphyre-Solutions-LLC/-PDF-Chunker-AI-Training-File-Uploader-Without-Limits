@@ -1,5 +1,3 @@
-# Create setup.py
-cat > setup.py << 'EOF'
 import os
 import subprocess
 import sys
@@ -31,21 +29,9 @@ def main():
     os.makedirs(os.path.join(base_dir, "PDF Split Drop", "Split Drop Complete"), exist_ok=True)
     os.makedirs(os.path.join(base_dir, "PDF Split Drop", "Original PDF"), exist_ok=True)
     
-    # Download NLTK data
-    print("Downloading NLTK data...")
-    try:
-        subprocess.check_call([
-            python_executable, "-c", 
-            "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
-        ])
-    except Exception as e:
-        print(f"Warning: Could not download NLTK data: {e}")
-        print("You may need to download manually using: python -c \"import nltk; nltk.download('punkt'); nltk.download('stopwords')\"")
-    
     print("Setup complete!")
     print("You can now run setup_autorun.bat to make the script start automatically on system startup")
     print("Or run start_pdf_splitter.bat to start it manually")
 
 if __name__ == "__main__":
     main()
-EOF

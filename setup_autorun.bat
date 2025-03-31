@@ -1,5 +1,3 @@
-# Create setup_autorun.bat
-cat > setup_autorun.bat << 'EOF'
 @echo off
 echo Setting up PDF Splitter to run automatically...
 
@@ -13,4 +11,3 @@ start "" "%~dp0start_pdf_splitter.bat"
 
 echo PDF Splitter is now running.
 pause
-EOF
