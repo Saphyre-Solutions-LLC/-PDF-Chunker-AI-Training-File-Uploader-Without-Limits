@@ -1,7 +1,6 @@
 # Core PDF processing
 PyPDF2>=3.0.0
 pdf2image>=1.16.0
-pytesseract>=0.3.10
 
 # File system monitoring
 watchdog>=2.3.0
