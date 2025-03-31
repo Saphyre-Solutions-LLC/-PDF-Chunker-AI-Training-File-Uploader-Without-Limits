@@ -91,10 +91,10 @@ Drop a PDF of any size into a folder, and the intelligent system:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TimSpurlin/autosplit-pdf.git
+git clone https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits.git
 
 # Navigate to the folder
-cd autosplit-pdf
+cd -PDF-Chunker-AI-Training-File-Uploader-Without-Limits
 ```
 
 ### Step 2: Run the Setup Script
@@ -146,8 +146,8 @@ This expanded guide provides step-by-step instructions for different systems and
 
 2. **Download the repository**
    ```
-   git clone https://github.com/TimSpurlin/autosplit-pdf.git
-   cd autosplit-pdf
+   git clone https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits.git
+   cd -PDF-Chunker-AI-Training-File-Uploader-Without-Limits
    ```
 
 3. **Run the setup script**
@@ -177,8 +177,8 @@ This expanded guide provides step-by-step instructions for different systems and
 
 2. **Download the repository**
    ```
-   git clone https://github.com/TimSpurlin/autosplit-pdf.git
-   cd autosplit-pdf
+   git clone https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits.git
+   cd -PDF-Chunker-AI-Training-File-Uploader-Without-Limits
    ```
 
 3. **Run the setup script**
@@ -212,8 +212,8 @@ This expanded guide provides step-by-step instructions for different systems and
 
 2. **Download the repository**
    ```
-   git clone https://github.com/TimSpurlin/autosplit-pdf.git
-   cd autosplit-pdf
+   git clone https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits.git
+   cd -PDF-Chunker-AI-Training-File-Uploader-Without-Limits
    ```
 
 3. **Run the setup script**
@@ -237,7 +237,7 @@ This expanded guide provides step-by-step instructions for different systems and
 
 If you don't have git installed:
 
-1. Visit https://github.com/TimSpurlin/autosplit-pdf
+1. Visit https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits
 2. Click the green "Code" button
 3. Select "Download ZIP"
 4. Extract the ZIP file
@@ -468,10 +468,10 @@ Let's walk through a complete example from installation to final output:
 
 ```bash
 # Clone the repository
-git clone https://github.com/TimSpurlin/autosplit-pdf.git
+git clone https://github.com/Saphyre-Solutions-LLC/-PDF-Chunker-AI-Training-File-Uploader-Without-Limits.git
 
 # Navigate to the folder
-cd autosplit-pdf
+cd -PDF-Chunker-AI-Training-File-Uploader-Without-Limits
 
 # Run the setup script
 python setup.py
